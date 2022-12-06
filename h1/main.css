@@ -1,0 +1,225 @@
+@font-face{
+    font-family: ubuntu;
+    src: url(/font/ubuntu-regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #202124;
+    font-family: ubuntu;
+}
+
+hr{
+    margin:0 auto;
+    color: #808080;
+    
+    width:92%;
+}
+
+.pb100{
+    width: 100%;
+}
+
+.pb60{
+    width:60%;
+}
+
+.pb80{
+    width: 80%;
+}
+
+.lable{
+    padding: 3px 5px;
+    background-color: #bb86fc;
+    border-radius: 5px;
+}
+
+
+i.fa{
+    color:#bb86fc  ;
+}
+
+.continer{
+    width: 98%;
+    padding:1%;
+}
+
+.left-side{
+    background-color: #303134;
+    display: inline-block;
+    width: 25%;
+    
+    margin: 0.5;
+    vertical-align: top;
+    border-radius: 3px;
+}
+
+.right-side{
+    display: inline-block;
+    width: 72%;
+    margin: 0.5;
+    vertical-align: top;
+}
+
+.right-side section{
+    background-color: #303134;
+    margin-bottom: 2%;
+    padding: 30px;
+}
+
+#profile-box{
+    position: relative;
+}
+
+#img-one{
+    width:100%;
+    border-radius: 3px 3px 0 0;
+}
+
+#box-text{
+    width: 96%;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 2%;
+    color: #fff;
+    position: absolute;
+    bottom: 2px;
+    font-size: 18px;
+
+}
+
+#iconss ul li i{
+    padding: 10px;
+}
+
+#iconss ul li {
+margin-bottom: 15px;
+}
+
+#iconss ul li span{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+
+#iconss ul{
+    list-style: none;
+}
+
+#iconss ul li i{
+   color:#bb86fc ;
+   font-size: 18px;
+}
+
+#skills{
+    padding: 15px;
+    color: #fff;
+}
+
+.skills-b{
+    margin-left: 5px;
+}
+
+.scill-item{
+    margin-top: 15px;
+    color: #fff;
+}
+
+.scill-item b{
+    margin-left: 12px;
+}
+
+.progress-box{
+    width: 92%;
+    margin-left: 12px;
+   text-align: center;
+    background-color: #eee;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.progress-box .progress-bar{
+    background-color: #bb86fc;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.skills2{
+    color: #bb86fc;
+    margin: 15px;
+}
+
+.skills2 b{
+    color: #fff;
+}
+
+
+#head-title{
+font-size: 32px;
+color: #fff;
+}
+
+.right-side-text{
+    color: #fff;
+}
+
+
+.right-side-text h3 {
+    margin: 20px 0;
+}
+
+.right-side-text h4{
+    margin: 20px 0;
+}
+
+.right-side-text p{
+    margin: 25px;
+    font-size: 16px;
+    margin: 15px 0 40px;
+}
+
+article hr{
+    width: 100%;
+    margin:30px 0;
+}
+
+#head-title1 b{
+    color: #fff;
+    font-size: 32px;
+    margin: 5px;
+}
+
+.gmail{
+    font-size: 14px !important; 
+}
+
+
+footer{
+    background-color: #bb86fc;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+   padding: 20px 0;
+   color: aliceblue;
+}
+
+footer a{
+    color: aliceblue;
+}
+
+@media only screen and (max-width:768px) {
+    .left-side{
+        display:block;
+        width: 99%;
+    }
+    
+    .right-side{
+        display:block;
+        width: 99%;
+    }
+}
